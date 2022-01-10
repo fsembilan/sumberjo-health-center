@@ -1,0 +1,222 @@
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url("../../frontend/fonts/Montserrat/Montserrat-Regular.ttf");
+  src: url("../../frontend/fonts/Montserrat/Montserrat-Regular.ttf") format("ttf"), url("../../frontend/fonts/Montserrat/Montserrat-Regular.ttf") format("truetype");
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.primary-color {
+  color: #66BB6A;
+}
+
+.secondary-color {
+  color: #338A3E;
+}
+
+.bg-primary-color {
+  background-color: #66BB6A;
+}
+
+.bg-secondary-color {
+  background-color: #338A3E;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  background-color: #338A3E;
+  border-radius: 30px;
+  color: white !important;
+}
+
+.navbar-nav .nav-item .nav-link:active {
+  background-color: #66BB6A;
+}
+
+.custom-jumbotron {
+  margin-top: 95px;
+  padding: 180px 0px 390px;
+  background-image: url(../../img/img-1.jpg);
+  background-size: cover;
+}
+
+.custom-jumbotron svg {
+  position: absolute;
+  top: 14%;
+}
+
+.custom-jumbotron .container h1 {
+  position: absolute;
+  font-size: 48px;
+  margin-top: -10px;
+}
+
+.custom-jumbotron .container p {
+  position: absolute;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 50px;
+  line-height: 25px;
+}
+
+.custom-btn-active {
+  background-color: #338A3E;
+  border-radius: 30px;
+  color: white !important;
+}
+
+.custom-btn {
+  background-color: #338A3E;
+  color: white;
+  font-size: 15px;
+}
+
+.custom-btn:hover {
+  color: white;
+  background-color: #66BB6A;
+}
+
+.bg-custom-gradient {
+  background: #66bb6a;
+  background: -webkit-gradient(linear, left top, right top, from(#66bb6a), to(#338a3e));
+  background: linear-gradient(90deg, #66bb6a 0%, #338a3e 100%);
+}
+
+.bg-custom-gradient-flip {
+  background: #338a3e;
+  background: -webkit-gradient(linear, left top, right top, from(#338a3e), to(#66bb6a));
+  background: linear-gradient(90deg, #338a3e 0%, #66bb6a 100%);
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.custom-pagination-active {
+  color: white;
+  background-color: #338A3E;
+}
+
+blockquote {
+  background-color: #c4c4c4;
+  height: 125px;
+  position: relative;
+}
+
+blockquote::before {
+  content: '"';
+  font-size: 100px;
+  margin-top: -75px;
+  margin-left: -20px;
+  position: relative;
+  color: #338A3E;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+blockquote::after {
+  content: '"';
+  font-size: 100px;
+  margin-bottom: -75px;
+  margin-right: -20px;
+  -webkit-transform: scaleY(-1);
+          transform: scaleY(-1);
+  position: relative;
+  color: #338A3E;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+section {
+  padding: 50px 0px;
+}
+
+section#profil .container .row .col h2 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+section#profil .container .row .col h2::after {
+  content: '';
+  display: block;
+  border-bottom: 3px solid #338A3E;
+  width: 5%;
+  margin: 5px auto;
+}
+
+section#profil .container .row .col .nav-pills .nav-link.active, section#profil .container .row .col .nav-pills .show > .nav-link {
+  color: white;
+  border: 0;
+  background-color: #66BB6A;
+}
+
+section#profil .container .row .col .nav-pills .nav-link {
+  border: 1px solid #c4c4c4;
+  color: #66BB6A;
+  margin-right: 10px;
+}
+
+section#layanan .container .row .col h2 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+section#layanan .container .row .col h2::after {
+  content: '';
+  display: block;
+  border-bottom: 3px solid white;
+  width: 8%;
+  margin: 5px auto;
+}
+
+section#kegiatan .container .row .col h2 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+section#kegiatan .container .row .col h2::after {
+  content: '';
+  display: block;
+  border-bottom: 3px solid #338A3E;
+  width: 5%;
+  margin: 5px auto;
+}
+
+section#kegiatan .container .row .col h4::after {
+  content: '';
+  display: block;
+  border-bottom: 3px solid #338A3E;
+  width: 5%;
+  margin: 5px auto;
+}
+
+section#poli .container .row h4::after {
+  content: '';
+  display: block;
+  border-bottom: 3px solid #338A3E;
+  width: 15%;
+}
+
+section#status {
+  height: 155px;
+}
+
+footer .container hr {
+  width: 90%;
+  margin: auto;
+  border: 1px solid;
+}
+
+footer .container span {
+  font-size: 13px;
+  opacity: 0.7;
+}
+
+footer .container a {
+  text-decoration: none;
+  color: white;
+}
+
+footer .container a:hover {
+  color: #e6e6e6;
+}
+/*# sourceMappingURL=custom.css.map */

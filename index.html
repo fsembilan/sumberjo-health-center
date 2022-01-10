@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="frontend/libs/bootstrap-5.0.0-beta2-dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css" />
+
+    <!-- My Own CSS -->
+    <link rel="stylesheet" href="frontend/styles/css/custom.css" />
+
+    <title>Puskesmas Sumberjo</title>
+  </head>
+  <body id="beranda">
+    <!-- navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="frontend/img/components/Logo.png" alt="Puskesmas Sumberjo" width="150" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link mx-2 custom-btn-active" href="#beranda">
+                <span class="px-3">Beranda</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2" href="#profil"><span class="px-3">Profil</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2" href="#layanan"><span class="px-3">Layanan</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2" href="#kegiatan"><span class="px-3">Kegiatan</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2" href="#hubungi"><span class="px-3">Hubungi Kami</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ms-2" href="#simpus"><span class="px-3">Simpus</span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end-of-navigation -->
+
+    <!-- jumbotron -->
+    <section class="jumbotron custom-jumbotron">
+      <svg viewBox="0 0 1440 470" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 0H1440V70C1440 290.914 1260.91 470 1040 470H0V0Z" fill="white" fill-opacity="0.4" />
+      </svg>
+
+      <div class="container">
+        <h1 class="fw-bold">Puskesmas <span class="secondary-color">Sumberjo</span></h1>
+        <p>
+          Selamat Datang di Website Puskemas Sumberjo <br />
+          Kesehatan Anda Kebanggan Kami
+        </p>
+      </div>
+    </section>
+    <!-- end-of-jumbotron -->
+
+    <!-- profile -->
+    <section id="profil">
+      <div class="container py-5">
+        <div class="row text-center my-4 secondary-color">
+          <div class="col">
+            <h2>Profil</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-7 text-center">
+            <p>
+              Puskesmas Sumberjo merupakan pelaksana teknis Dinas Kesehatan Kabupaten Kediri yang bertanggung jawab terhadap pembangunan kesehatan pada wilayah kerja Kecamatan Purwoasri. Puskesmas Sumberjo mempunyai wilayah kerja 11 desa
+              dari Kecamatan Purwoasri. Puskesmas Sumberjo siap melayani Anda sepenuh hati untuk mewujudkan masyarkat sehat dan sejahtera karena <br />
+              "Kesehatan Anda Kebanggaan Kami"
+            </p>
+          </div>
+        </div>
+        <div class="row my-4 justify-content-center">
+          <div class="col text-center">
+            <a href="profil.html" class="btn custom-btn">Lihat Selengkapnya</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end-of-profile -->
+
+    <!-- layanan -->
+    <section id="layanan" class="bg-custom-gradient">
+      <div class="container py-5">
+        <div class="row text-center my-4 secondary-color">
+          <div class="col">
+            <h2 class="text-white">Layanan</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <p class="text-white fw-light text-center">Beberapa layanan yang ada pada puskesmas Sumberjo</p>
+            <div id="carouselExampleControls" class="carousel slide my-5" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="d-flex justify-content-evenly">
+                    <a href="poli-kb.html" class="nav-link">
+                      <img src="frontend/img/components/ic (8).png" alt="Poli KB" width="150px" />
+                      <p class="text-white text-decoration-none text-center mt-3">Poli KB</p>
+                    </a>
+                    <a href="poli-mtbs.html" class="nav-link">
+                      <img src="frontend/img/components/ic (5).png" alt="Poli MTBS" width="150px" />
+                      <p class="text-white text-decoration-none text-center mt-3">Poli MTBS</p>
+                    </a>
+                    <a href="poli-tb.html" class="nav-link">
+                      <img src="frontend/img/components/ic (6).png" alt="Poli TB" width="150px" />
+                      <p class="text-white text-decoration-none text-center mt-3">Poli TB</p>
+                    </a>
+                    <a href="laboratorium.html" class="nav-link">
+                      <img src="frontend/img/components/ic (7).png" alt="Laboratorium" width="150px" />
+                      <p class="text-white text-decoration-none text-center mt-3">Laboratorium</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="d-flex justify-content-evenly">
+                    <a href="layanan.html" class="nav-link">
+                      <img src="frontend/img/components/ic (1).png" alt="Poli Umum" width="150px" />
+                      <p class="text-white text-decoration-none text-center mt-3">Poli Umum</p>
+                    </a>
+                    <a href="poli-gigi.html" class="nav-link">
+                      <img src="frontend/img/components/ic (2).png" alt="Poli Gigi" width="150px" />
+                      <p class="text-white text-decoration-none text-center mt-3">Poli Gigi</p>
+                    </a>
+                    <a href="poli-gizi.html" class="nav-link">
+                      <img src="frontend/img/components/ic (3).png" alt="Poli Gizi" width="150px" />
+                      <p class="text-white text-decoration-none text-center mt-3">Poli Gizi</p>
+                    </a>
+                    <a href="poli-kia.html" class="nav-link">
+                      <img src="frontend/img/components/ic (4).png" alt="Poli KIA" width="150px" />
+                      <p class="text-white text-decoration-none text-center mt-3">Poli KIA</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <img class="me-auto" src="frontend/img/components/carbon_next-filled-1.png" alt="previous" width="60px" />
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <img class="ms-auto" src="frontend/img/components/carbon_next-filled.png" alt="next" width="60px" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end-of-layanan -->
+
+    <!-- kegiatan -->
+    <section id="kegiatan">
+      <div class="container py-5">
+        <div class="row text-center my-4 secondary-color">
+          <div class="col">
+            <h2>Kegiatan</h2>
+          </div>
+        </div>
+        <div class="row justify-content-md-center mt-5">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="frontend/img/img (23).jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Seminar Pentingnya Kesehatan</h5>
+                <p class="card-text fw-light text-justify">Tujuannya diadakan acara ini adalah untuk pengembangan bagi masyarakat agar dapat menyadari bahwa kesehatan itu penting dan mahal harganya</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="frontend/img/img (1).jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Pertemuan LINTOR</h5>
+                <p class="card-text fw-light text-justify">Pertemuan LINTOR (Lintas Sektor) merupakan upaya yang dilakukan Puskesmas Sumberjo untuk memperoleh masukan dari masyarakat</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row my-4 justify-content-center">
+          <div class="col text-center">
+            <a href="kegiatan.html" class="btn custom-btn">Lihat Selengkapnya</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end-of-kegiatan -->
+
+    <footer id="footer" class="bg-custom-gradient-flip text-white">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-md-5 fw-bold">
+            <i class="bi bi-phone" style="font-size: 24px"></i>
+            Hubungi Kami
+          </div>
+          <div class="col-md-4 fw-bold">
+            <i class="bi bi-geo-alt" style="font-size: 24px"></i>
+            Kunjungi Kami
+          </div>
+          <div class="col-md-3 fw-bold">
+            <i class="bi bi-link-45deg" style="font-size: 24px"></i>
+            Tautan
+          </div>
+        </div>
+        <div class="row fw-light">
+          <div class="col-md-5">
+            <div class="d-flex flex-column bd-highlight ms-3">
+              <div class="p-2 bd-highlight">
+                <i class="bi bi-instagram me-1"></i>
+                Instagram puskesmas_sumberjo
+              </div>
+              <div class="p-2 bd-highlight">
+                <i class="bi bi-telephone-fill me-1"></i>
+                Gawat Darurat 081335160782
+              </div>
+              <div class="p-2 bd-highlight">
+                <i class="bi bi-whatsapp me-1"></i>
+                Whatsapp 082140575992
+              </div>
+              <div class="p-2 bd-highlight">
+                <i class="bi bi-envelope-fill me-1"></i>
+                Email puskesmassumberjo@gmail.com
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="d-flex flex-column bd-highlight ms-3">
+              <div class="p-2 bd-highlight">
+                Jalan Raya Kunjang Kertosono KM 3 <br />
+                Ds Klampitan Purwoasri Kediri <br />
+                Jawa Timur
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="d-flex flex-row bd-highlight ms-3">
+              <div class="p-2 bd-highlight"><a href="index.html">&gt; Beranda</a></div>
+              <div class="p-2 bd-highlight"><a href="kegiatan.html">&gt; Kegiatan</a></div>
+            </div>
+            <div class="d-flex flex-row bd-highlight ms-3">
+              <div class="p-2 bd-highlight"><a href="profil.html">&gt; Profil</a></div>
+              <div class="p-2 bd-highlight ms-auto"><a href="hubungi.html">&gt; Hubungi Kami</a></div>
+            </div>
+            <div class="d-flex flex-row bd-highlight ms-3">
+              <div class="p-2 bd-highlight"><a href="layanan.html">&gt; Layanan</a></div>
+              <div class="p-2 bd-highlight"><a href="admin/index.html">&gt; Simpus</a></div>
+            </div>
+          </div>
+        </div>
+
+        <hr class="secondary-color my-4" />
+        <span class="fw-light">&copy; Copyright 2020 | Puskesmas Sumberejo</span>
+      </div>
+    </footer>
+
+    <script src="frontend/libs/bootstrap-5.0.0-beta2-dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

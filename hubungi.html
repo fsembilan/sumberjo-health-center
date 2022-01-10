@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="frontend/libs/bootstrap-5.0.0-beta2-dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css" />
+
+    <!-- My Own CSS -->
+    <link rel="stylesheet" href="frontend/styles/css/custom.css" />
+
+    <title>Puskesmas Sumberjo</title>
+  </head>
+  <body id="beranda">
+    <!-- navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="frontend/img/components/Logo.png" alt="Puskesmas Sumberjo" width="150" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link mx-2" href="index.html">
+                <span class="px-3">Beranda</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2" href="profil.html"><span class="px-3">Profil</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2" href="layanan.html"><span class="px-3">Layanan</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2" href="kegiatan.html"><span class="px-3">Kegiatan</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2 custom-btn-active" href="#hubungi"><span class="px-3">Hubungi Kami</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ms-2" href="admin/index.html"><span class="px-3">Simpus</span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end-of-navigation -->
+
+    <!-- status -->
+    <section id="status" class="bg-primary-color mt-3">
+      <div class="container">
+        <div class="row mt-5">
+          <div class="col">
+            <div class="d-flex justify-content-between">
+              <h2 class="fw-bold text-white">Hubungi Kami</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end-of-status -->
+
+    <section id="hubungi">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-md-6">
+            <h4 class="fw-bold mb-4">INFORMASI KONTAK</h4>
+            <div class="d-flex align-items-start flex-column bd-highlight mb-3" style="height: 400px">
+              <div class="bd-highlight mb-2">Gawat Darutat: 0813-3516-0782</div>
+              <div class="bd-highlight mb-2">Whatsapp: 0821-4057-5992</div>
+              <div class="bd-highlight mb-2">Email: puskesmassumberjo@gmail.com</div>
+              <div class="bd-highlight mb-2">Instagram: puskesmas_sumberjo</div>
+              <div class="mt-auto bd-highlight">
+                <h4 class="fs-5">Kunjungi Kami</h4>
+                <p class="fw-light">
+                  Di Jalan Raya Kunjang Kertosono KM 3 <br />
+                  Ds. Klampitan Purwoasri Kediri <br />
+                  Jawa Timur
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <h4 class="fw-bold text-center mb-4">KIRIM PESAN</h4>
+            <form>
+              <div class="form-floating mb-4">
+                <input type="text" class="form-control" id="nama" placeholder="Nama Lengkap" />
+                <label for="nama">Nama</label>
+              </div>
+              <div class="form-floating mb-4">
+                <input type="email" class="form-control" id="email" placeholder="Email" />
+                <label for="email">Email</label>
+              </div>
+              <div class="form-floating mb-4">
+                <input type="number" class="form-control" id="nohp" placeholder="Nomor Handphone" />
+                <label for="nohp">Nomor Handphone</label>
+              </div>
+              <div class="form-floating mb-4">
+                <input type="text" class="form-control" id="perihal" placeholder="Perihal" />
+                <label for="perihal">Perihal</label>
+              </div>
+              <div class="form-floating mb-4">
+                <textarea class="form-control" placeholder="Pesan Anda" id="floatingTextarea"></textarea>
+                <label for="pesan">Pesan</label>
+              </div>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn custom-btn" data-bs-toggle="modal" data-bs-target="#kirim">Kirim</button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="kirim" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="kirimLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-body text-center">
+                      <h5 class="mb-3 fw-bold">Pesan Terkirim</h5>
+                      <i class="bi bi-check fs-5"></i> Pesan Anda Berhasil Dikirim, Terimakasih
+                      <br />
+                      <br />
+                      <button type="button" class="btn custom-btn" data-bs-dismiss="modal" style="width: 200px">OK</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer" class="bg-custom-gradient-flip text-white">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-md-5 fw-bold">
+            <i class="bi bi-phone" style="font-size: 24px"></i>
+            Hubungi Kami
+          </div>
+          <div class="col-md-4 fw-bold">
+            <i class="bi bi-geo-alt" style="font-size: 24px"></i>
+            Kunjungi Kami
+          </div>
+          <div class="col-md-3 fw-bold">
+            <i class="bi bi-link-45deg" style="font-size: 24px"></i>
+            Tautan
+          </div>
+        </div>
+        <div class="row fw-light">
+          <div class="col-md-5">
+            <div class="d-flex flex-column bd-highlight ms-3">
+              <div class="p-2 bd-highlight">
+                <i class="bi bi-instagram me-1"></i>
+                Instagram puskesmas_sumberjo
+              </div>
+              <div class="p-2 bd-highlight">
+                <i class="bi bi-telephone-fill me-1"></i>
+                Gawat Darurat 081335160782
+              </div>
+              <div class="p-2 bd-highlight">
+                <i class="bi bi-whatsapp me-1"></i>
+                Whatsapp 082140575992
+              </div>
+              <div class="p-2 bd-highlight">
+                <i class="bi bi-envelope-fill me-1"></i>
+                Email puskesmassumberjo@gmail.com
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="d-flex flex-column bd-highlight ms-3">
+              <div class="p-2 bd-highlight">
+                Jalan Raya Kunjang Kertosono KM 3 <br />
+                Ds Klampitan Purwoasri Kediri <br />
+                Jawa Timur
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="d-flex flex-row bd-highlight ms-3">
+              <div class="p-2 bd-highlight"><a href="index.html">&gt; Beranda</a></div>
+              <div class="p-2 bd-highlight"><a href="kegiatan.html">&gt; Kegiatan</a></div>
+            </div>
+            <div class="d-flex flex-row bd-highlight ms-3">
+              <div class="p-2 bd-highlight"><a href="profil.html">&gt; Profil</a></div>
+              <div class="p-2 bd-highlight ms-auto"><a href="hubungi.html">&gt; Hubungi Kami</a></div>
+            </div>
+            <div class="d-flex flex-row bd-highlight ms-3">
+              <div class="p-2 bd-highlight"><a href="layanan.html">&gt; Layanan</a></div>
+              <div class="p-2 bd-highlight"><a href="admin/index.html">&gt; Simpus</a></div>
+            </div>
+          </div>
+        </div>
+
+        <hr class="secondary-color my-4" />
+        <span class="fw-light">&copy; Copyright 2020 | Puskesmas Sumberejo</span>
+      </div>
+    </footer>
+
+    <script src="frontend/libs/bootstrap-5.0.0-beta2-dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

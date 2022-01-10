@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="frontend/libs/bootstrap-5.0.0-beta2-dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css" />
+
+    <!-- My Own CSS -->
+    <link rel="stylesheet" href="frontend/styles/css/custom.css" />
+
+    <title>Puskesmas Sumberjo</title>
+  </head>
+  <body id="beranda">
+    <!-- navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="frontend/img/components/Logo.png" alt="Puskesmas Sumberjo" width="150" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link mx-2" href="index.html">
+                <span class="px-3">Beranda</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2" href="profil.html"><span class="px-3">Profil</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2" href="layanan.html"><span class="px-3">Layanan</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2 custom-btn-active" href="#kegiatan"><span class="px-3">Kegiatan</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2" href="hubungi.html"><span class="px-3">Hubungi Kami</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ms-2" href="admin/index.html"><span class="px-3">Simpus</span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end-of-navigation -->
+
+    <!-- status -->
+    <section id="status" class="bg-primary-color mt-3">
+      <div class="container">
+        <div class="row mt-5">
+          <div class="col">
+            <div class="d-flex justify-content-between">
+              <h2 class="fw-bold text-white">Kegiatan</h2>
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb bg-white p-2 rounded">
+                  <li class="breadcrumb-item"><a href="#" class="text-decoration-none text-black-50">Beranda</a></li>
+                  <li class="breadcrumb-item primary-color" aria-current="page">Kegiatan</li>
+                </ol>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end-of-status -->
+
+    <!-- kegiatan -->
+    <section id="kegiatan">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col">
+            <h4 class="fw-bold mb-4 text-center">Artikel dan Kegiatan</h4>
+          </div>
+        </div>
+        <form class="row justify-content-end mb-3">
+          <div class="col-auto">
+            <label for="cari" class="visually-hidden">Cari</label>
+            <input type="text" class="form-control" id="cari" placeholder="Cari" />
+          </div>
+          <div class="col-auto">
+            <button type="submit" class="btn custom-btn"><i class="bi bi-search"></i></button>
+          </div>
+        </form>
+        <div class="row mt-4">
+          <div class="d-flex flex-wrap justify-content-between">
+            <div class="card shadow-sm mb-5 p-2" style="width: 22rem">
+              <img src="frontend/img/img (23).jpg" class="card-img-top p-3" alt="seminar" />
+              <div class="card-body">
+                <a class="text-decoration-none" href="detail-kegiatan.html"><h5 class="fw-bold secondary-color">Seminar pentingnya kesehatan</h5></a>
+                <p class="card-text text-justify lh-1">Tujuannya diadakan acara ini adalah untuk pengembangan bagi masyarakat agar dapat menyadari bahwa kesehatan itu penting dan mahal harganya.</p>
+              </div>
+              <div class="card-footer text-black-50 bg-white">
+                <i class="bi bi-calendar-week-fill me-1" style="font-size: 20px"></i>
+                20 Agustus 2020
+              </div>
+            </div>
+            <div class="card shadow-sm mb-5 p-2" style="width: 22rem">
+              <img src="frontend/img/img (13).jpg" class="card-img-top p-3" alt="seminar" />
+              <div class="card-body">
+                <a href="" class="text-decoration-none"><h5 class="fw-bold secondary-color">Pelatihan Jurnalistik</h5></a>
+                <p class="card-text text-justify lh-1">Kebebasan pers merupakan hak manusia untuk mengekspresikan diri guna meningkatkan kualitas manusia di tengah-tengah masyarakat.</p>
+              </div>
+              <div class="card-footer text-black-50 bg-white">
+                <i class="bi bi-calendar-week-fill me-1" style="font-size: 20px"></i>
+                20 Juli 2020
+              </div>
+            </div>
+            <div class="card shadow-sm mb-5 p-2" style="width: 22rem">
+              <img src="frontend/img/img (1).jpg" class="card-img-top p-3" alt="seminar" />
+              <div class="card-body">
+                <a class="text-decoration-none" href=""><h5 class="fw-bold secondary-color">Pertemuan LINTOR</h5></a>
+                <p class="card-text text-justify lh-1">Pertemuan LINTOR (Lintas Sektor) merupakan upaya yang dilakukan Puskesmas Sumberjo untuk memperoleh masukan dari masyarakat.</p>
+              </div>
+              <div class="card-footer text-black-50 bg-white">
+                <i class="bi bi-calendar-week-fill me-1" style="font-size: 20px"></i>
+                30 Juni 2020
+              </div>
+            </div>
+            <div class="card shadow-sm mb-5 p-2" style="width: 22rem">
+              <img src="frontend/img/img (2).jpg" class="card-img-top p-3" alt="seminar" />
+              <div class="card-body">
+                <a class="text-decoration-none" href=""><h5 class="fw-bold secondary-color">Penyuluhan sebagai Proses Pendidikan Pada Pasien</h5></a>
+                <p class="card-text text-justify lh-1">Kegiatan penambahan pengetahuan yang diperutukkan bagi masyarakat melalui penyebaran pesan.</p>
+              </div>
+              <div class="card-footer text-black-50 bg-white">
+                <i class="bi bi-calendar-week-fill me-1" style="font-size: 20px"></i>
+                10 Juni 2020
+              </div>
+            </div>
+            <div class="card shadow-sm mb-5 p-2" style="width: 22rem">
+              <img src="frontend/img/img (3).jpg" class="card-img-top p-3" alt="seminar" />
+              <div class="card-body">
+                <a class="text-decoration-none" href=""><h5 class="fw-bold secondary-color">Sosialisasi SOP pelayanan klinis</h5></a>
+                <p class="card-text text-justify lh-1">Kegiatan sosialisasi SOP Pelayanan Klinis bertujuan agar semua tenaga pelayanan klinis dapat memahami SOP.</p>
+              </div>
+              <div class="card-footer text-black-50 bg-white">
+                <i class="bi bi-calendar-week-fill me-1" style="font-size: 20px"></i>
+                21 Mei 2020
+              </div>
+            </div>
+            <div class="card shadow-sm mb-5 p-2" style="width: 22rem">
+              <img src="frontend/img/img (4).jpg" class="card-img-top p-3" alt="seminar" />
+              <div class="card-body">
+                <a class="text-decoration-none" href=""><h5 class="fw-bold secondary-color">Mengenal penyakit stroke</h5></a>
+                <p class="card-text text-justify lh-1">Stroke yaitu kondisi yang terjadi ketika pasokan darah ke otak terganggu atau berkurang akibat penyumbatan atau pecahnya pembuluh darah.</p>
+              </div>
+              <div class="card-footer text-black-50 bg-white">
+                <i class="bi bi-calendar-week-fill me-1" style="font-size: 20px"></i>
+                20 Mei 2020
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center">
+              <li class="page-item ms-3 me-3 text-center" style="width: 40px"><a class="page-link rounded-circle custom-pagination-active" href="#">1</a></li>
+              <li class="page-item ms-3 me-3 text-center" style="width: 40px"><a class="page-link rounded-circle text-dark" href="#">2</a></li>
+              <li class="page-item ms-3 me-3 text-center" style="width: 40px"><a class="page-link rounded-circle text-dark" href="#">3</a></li>
+              <li class="page-item ms-3 me-3 text-center" style="width: 40px"><a class="page-link rounded-circle text-dark" href="#">4</a></li>
+              <li class="page-item ms-3 me-3 text-center" style="width: 40px">
+                <a class="page-link rounded-circle text-dark" href="#" aria-label="Next">
+                  <i class="bi bi-chevron-right"></i>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </section>
+    <!-- end-of-kegiatan -->
+
+    <footer id="footer" class="bg-custom-gradient-flip text-white">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-md-5 fw-bold">
+            <i class="bi bi-phone" style="font-size: 24px"></i>
+            Hubungi Kami
+          </div>
+          <div class="col-md-4 fw-bold">
+            <i class="bi bi-geo-alt" style="font-size: 24px"></i>
+            Kunjungi Kami
+          </div>
+          <div class="col-md-3 fw-bold">
+            <i class="bi bi-link-45deg" style="font-size: 24px"></i>
+            Tautan
+          </div>
+        </div>
+        <div class="row fw-light">
+          <div class="col-md-5">
+            <div class="d-flex flex-column bd-highlight ms-3">
+              <div class="p-2 bd-highlight">
+                <i class="bi bi-instagram me-1"></i>
+                Instagram puskesmas_sumberjo
+              </div>
+              <div class="p-2 bd-highlight">
+                <i class="bi bi-telephone-fill me-1"></i>
+                Gawat Darurat 081335160782
+              </div>
+              <div class="p-2 bd-highlight">
+                <i class="bi bi-whatsapp me-1"></i>
+                Whatsapp 082140575992
+              </div>
+              <div class="p-2 bd-highlight">
+                <i class="bi bi-envelope-fill me-1"></i>
+                Email puskesmassumberjo@gmail.com
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="d-flex flex-column bd-highlight ms-3">
+              <div class="p-2 bd-highlight">
+                Jalan Raya Kunjang Kertosono KM 3 <br />
+                Ds Klampitan Purwoasri Kediri <br />
+                Jawa Timur
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="d-flex flex-row bd-highlight ms-3">
+              <div class="p-2 bd-highlight"><a href="index.html">&gt; Beranda</a></div>
+              <div class="p-2 bd-highlight"><a href="kegiatan.html">&gt; Kegiatan</a></div>
+            </div>
+            <div class="d-flex flex-row bd-highlight ms-3">
+              <div class="p-2 bd-highlight"><a href="profil.html">&gt; Profil</a></div>
+              <div class="p-2 bd-highlight ms-auto"><a href="hubungi.html">&gt; Hubungi Kami</a></div>
+            </div>
+            <div class="d-flex flex-row bd-highlight ms-3">
+              <div class="p-2 bd-highlight"><a href="layanan.html">&gt; Layanan</a></div>
+              <div class="p-2 bd-highlight"><a href="admin/index.html">&gt; Simpus</a></div>
+            </div>
+          </div>
+        </div>
+
+        <hr class="secondary-color my-4" />
+        <span class="fw-light">&copy; Copyright 2020 | Puskesmas Sumberejo</span>
+      </div>
+    </footer>
+
+    <script src="frontend/libs/bootstrap-5.0.0-beta2-dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

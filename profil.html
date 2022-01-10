@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="frontend/libs/bootstrap-5.0.0-beta2-dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css" />
+
+    <!-- My Own CSS -->
+    <link rel="stylesheet" href="frontend/styles/css/custom.css" />
+
+    <title>Puskesmas Sumberjo</title>
+  </head>
+  <body id="beranda">
+    <!-- navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="frontend/img/components/Logo.png" alt="Puskesmas Sumberjo" width="150" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link mx-2" href="index.html">
+                <span class="px-3">Beranda</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2 custom-btn-active" href="#profil"><span class="px-3">Profil</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2" href="layanan.html"><span class="px-3">Layanan</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2" href="kegiatan.html"><span class="px-3">Kegiatan</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2" href="hubungi.html"><span class="px-3">Hubungi Kami</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ms-2" href="admin/index.html"><span class="px-3">Simpus</span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end-of-navigation -->
+
+    <!-- status -->
+    <section id="status" class="bg-primary-color mt-3">
+      <div class="container">
+        <div class="row mt-5">
+          <div class="col">
+            <div class="d-flex justify-content-between">
+              <h2 class="fw-bold text-white">Profil</h2>
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb bg-white p-2 rounded">
+                  <li class="breadcrumb-item"><a href="#" class="text-decoration-none text-black-50">Beranda</a></li>
+                  <li class="breadcrumb-item"><a href="#" class="text-decoration-none text-black-50">Profil</a></li>
+                  <li class="breadcrumb-item primary-color" aria-current="page">Detail</li>
+                </ol>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end-of-status -->
+
+    <!-- profile -->
+    <section id="profil">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col">
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="pills-sambutan-tab" data-bs-toggle="pill" data-bs-target="#pills-sambutan" type="button" role="tab" aria-controls="pills-sambutan" aria-selected="true">Sambutan</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-visimisi-tab" data-bs-toggle="pill" data-bs-target="#pills-visimisi" type="button" role="tab" aria-controls="pills-visimisi" aria-selected="false">Visi & Misi</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-akreditasi-tab" data-bs-toggle="pill" data-bs-target="#pills-akreditasi" type="button" role="tab" aria-controls="pills-akreditasi" aria-selected="false">Akreditasi</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-struktur-tab" data-bs-toggle="pill" data-bs-target="#pills-struktur" type="button" role="tab" aria-controls="pills-struktur" aria-selected="false">Struktur Organisasi</button>
+              </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+              <div class="tab-pane fade show active" id="pills-sambutan" role="tabpanel" aria-labelledby="pills-sambutan-tab">
+                <div class="row">
+                  <div class="col-md-3">
+                    <img src="frontend/img/img (12).jpg" alt="drg. Petrip Budi S" width="300px" />
+                  </div>
+                  <div class="col-md-9 ps-5" style="font-size: 14px">
+                    Sambutan oleh drg. Petrip Budi S <br />
+                    <br />
+                    Assalamualaikum Wr. Wb. <br />
+                    <p style="text-indent: 15px; text-align: justify">
+                      Puskesmas Sumberjo adalah fasilitas pelayanan kesehatan yang menyelenggarakan upaya kesehatan masyarakat dan upaya kesehatan perseorangan tingkat pertama dengan lebih mengutamakan upaya promotif dan preventif di
+                      wilayah kerjanya. Wilayah kerja Puskesmas Sumberjo sendiri meliputi 11 desa dari Kecamatan Purwoasri . Kami memiliki motto "Kesehatan Anda Kebanggan Kami".
+                    </p>
+                    <p style="text-align: justify; text-indent: 15px">
+                      Puskesmas Sumberjo dituntut untuk peka dalam segala hal, mengingat sebagai layanan tingkat pertama. Upaya yang dilakukan yaitu mulai dari peningkatan kualitas dan penambahan SDM, pengembangan layanan dan penambahan
+                      sarana dan prasarana. Saat ini, kami juga terus berusaha melakukan upaya peningkatan mutu dan kesehatan pasien dengan memberikan pelayanan yang masif.
+                    </p>
+                    <p style="text-indent: 15px; text-align: justify">
+                      Berbagai masukan dari Anda sangat membantu kami untuk meningkatkan kualitas layanan dan pengembangan puskesmas. Puskesmas Sumberjo diharapkan menjadi puskesmas pilihan masyarakat yang mengutamakan peningkatan mutu dan
+                      kesehatan pasien.
+                    </p>
+                    <p style="text-indent: 15px">Semoga Allah SWT memberkahi langkah kita, Amin.</p>
+                    Wassalamualaikum Wr. Wb.
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pills-visimisi" role="tabpanel" aria-labelledby="pills-visimisi-tab">
+                <div class="row">
+                  <div class="col-md-6 text-center">
+                    <h2>Visi</h2>
+                    <blockquote class="d-flex align-items-center p-3">Mewujudkan masyarakat wilayah UPTD Puskesmas Sumberjo yang sehat secara mandiri dan peduli kesehatan.</blockquote>
+                  </div>
+                  <div class="col-md-6 text-center">
+                    <h2>Misi</h2>
+                    <p class="text-start">
+                      Menjalankan promosi kesehatan yang bertumpu pada tindakan promotif dan preventif secara luas dan berkesinambungan.
+                      <br /><br />
+                      Menggerakkan masyarakat untuk meningkatkan kepedulian dan kemandirian dalam bidang kesehatan baik secara individu, keluarga, masyarkat, maupun lingkungannya.
+                      <br /><br />
+                      Memberikan pelayanan kesehatan yang bermutu, merata dan berkeadilan yang berorientasi pada kepuasan pelanggan.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pills-akreditasi" role="tabpanel" aria-labelledby="pills-akreditasi-tab">
+                <div class="row">
+                  <div class="col text-center">
+                    <img src="frontend/img/img (11).jpg" alt="akreditasi puskesmas sumberjo" width="500px" />
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pills-struktur" role="tabpanel" aria-labelledby="pills-struktur-tab">
+                <div class="row">
+                  <div class="col text-center">
+                    <img src="frontend/img/structure.jpg" alt="struktur organisasi puskesmas sumberjo" width="500px" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end-of-profile -->
+
+    <footer id="footer" class="bg-custom-gradient-flip text-white">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-md-5 fw-bold">
+            <i class="bi bi-phone" style="font-size: 24px"></i>
+            Hubungi Kami
+          </div>
+          <div class="col-md-4 fw-bold">
+            <i class="bi bi-geo-alt" style="font-size: 24px"></i>
+            Kunjungi Kami
+          </div>
+          <div class="col-md-3 fw-bold">
+            <i class="bi bi-link-45deg" style="font-size: 24px"></i>
+            Tautan
+          </div>
+        </div>
+        <div class="row fw-light">
+          <div class="col-md-5">
+            <div class="d-flex flex-column bd-highlight ms-3">
+              <div class="p-2 bd-highlight">
+                <i class="bi bi-instagram me-1"></i>
+                Instagram puskesmas_sumberjo
+              </div>
+              <div class="p-2 bd-highlight">
+                <i class="bi bi-telephone-fill me-1"></i>
+                Gawat Darurat 081335160782
+              </div>
+              <div class="p-2 bd-highlight">
+                <i class="bi bi-whatsapp me-1"></i>
+                Whatsapp 082140575992
+              </div>
+              <div class="p-2 bd-highlight">
+                <i class="bi bi-envelope-fill me-1"></i>
+                Email puskesmassumberjo@gmail.com
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="d-flex flex-column bd-highlight ms-3">
+              <div class="p-2 bd-highlight">
+                Jalan Raya Kunjang Kertosono KM 3 <br />
+                Ds Klampitan Purwoasri Kediri <br />
+                Jawa Timur
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="d-flex flex-row bd-highlight ms-3">
+              <div class="p-2 bd-highlight"><a href="index.html">&gt; Beranda</a></div>
+              <div class="p-2 bd-highlight"><a href="kegiatan.html">&gt; Kegiatan</a></div>
+            </div>
+            <div class="d-flex flex-row bd-highlight ms-3">
+              <div class="p-2 bd-highlight"><a href="profil.html">&gt; Profil</a></div>
+              <div class="p-2 bd-highlight ms-auto"><a href="hubungi.html">&gt; Hubungi Kami</a></div>
+            </div>
+            <div class="d-flex flex-row bd-highlight ms-3">
+              <div class="p-2 bd-highlight"><a href="layanan.html">&gt; Layanan</a></div>
+              <div class="p-2 bd-highlight"><a href="admin/index.html">&gt; Simpus</a></div>
+            </div>
+          </div>
+        </div>
+
+        <hr class="secondary-color my-4" />
+        <span class="fw-light">&copy; Copyright 2020 | Puskesmas Sumberejo</span>
+      </div>
+    </footer>
+
+    <script src="frontend/libs/bootstrap-5.0.0-beta2-dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
