@@ -1,5 +1,5 @@
 <p align=”center”>
-<img src="https://user-images.githubusercontent.com/65881558/148010616-5af017c5-9f75-49c5-b2a5-29611d322b71.png" alt="rent-app-v1 banner">
+<img src="https://user-images.githubusercontent.com/65881558/149612642-d6638938-753c-41d9-a0b6-77bd30526e20.png" alt="rent-app-v1 banner">
 </p>
 
 # sumberjo-health-center
